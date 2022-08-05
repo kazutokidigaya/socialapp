@@ -1,0 +1,21 @@
+.card {
+  box-shadow: 0 0 3px gray;
+}
+.card-sm {
+  box-shadow: 0 0 1px gray;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@500&family=Roboto:wght@100;400&family=Sora:wght@300;400&family=Syne+Tactile&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
