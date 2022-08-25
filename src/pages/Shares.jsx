@@ -24,7 +24,7 @@ function Shares() {
   return (
     <DefaultLayout>
       <div className="grid grid-cols-4 md:grid-cols-1 gap-10">
-        {data.map((post) => {
+        {data?.map((post) => {
           return (
             <div className="card-sm">
               <Post post={post} />
