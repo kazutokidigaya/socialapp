@@ -21,7 +21,7 @@ function Profile() {
       temp.push({ ...doc.data(), id: doc.id });
     });
     const filteredPosts = temp.filter((post) => post.user.id === params.id);
-    console.log(filteredPosts);
+
     setPosts(filteredPosts);
     dispatch({ type: "hideLoading" });
   };

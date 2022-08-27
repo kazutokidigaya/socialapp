@@ -35,7 +35,6 @@ function Register() {
       .catch((error) => {
         dispatch({ type: "hideLoading" });
         toast.error("Something went wrong");
-        console.log(error);
       });
   };
   useEffect(() => {

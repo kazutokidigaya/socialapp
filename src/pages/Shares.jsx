@@ -13,7 +13,7 @@ function Shares() {
   const getData = async () => {
     dispatch({ type: "showLoading" });
     const result = await getDoc(doc(fireDb, "users", user.id));
-    console.log(result.data().shares);
+
     setData(result.data().shares);
     dispatch({ type: "hideLoading" });
   };
